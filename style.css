@@ -204,90 +204,7 @@ a:hover{
 }
 
 /*Sobre mim*/
-.about {
-    background: #01006b;
-    background: -webkit-gradient(linear, left top, left bottom, from(#01006b), color-stop(0%, #020a4a), color-stop(97%, #050041), to(#06002b));
-    background: linear-gradient(180deg, #01006b 0%, #020a4a 0%, #050041 97%, #06002b 100%);
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  
-  .about .a-container {
-    width: 90%;
-    padding: 120px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  
-  .about .a-container .ilustra img {
-    width: 90%;
-    max-width: 100%;
-  }
 
-  .text-about{
-    text-align: justify;
-  }
-  
-  .about .a-container .text-about {
-    margin-left: 50px;
-  }
-  
-  .about .a-container .text-about div .redes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    text-align: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    width: 100%;
-  }
-  
-  .about .a-container .text-about div .redes a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-    width: 180px;
-    border: 2px solid;
-    -o-border-image: linear-gradient(227.91deg, #0b4fb6 0%, #003cff 100%) 1;
-       border-image: linear-gradient(227.91deg, #0b4fb6 0%, #003cff 100%) 1;
-  }
-  
-  .about .a-container .text-about div .redes a img {
-    font-size: 1.2em;
-    margin-right: 8px;
-  }
-  
-  .about .a-container .text-about div .redes a p {
-    font-size: 1.4em;
-    margin-top: 15px;
-    font-family: monospace;
-  }
-  
-  .about .a-container .text-about div .redes a i {
-    font-size: 1.4em;
-    margin-right: 8px;
-  }
-  
-  .about .a-container .text-about h2, .about .container .text-about p {
-    margin-bottom: 20px;
-    color: #ffffff;
-  }
 
 /*Cards*/
 h3{
@@ -520,33 +437,7 @@ h3{
 
 /*Responsivo*/
 @media (max-width: 1024px) {
-    /*SOBRE DA PÁGINA  */
-  .about {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .about .container {
-    width: 95%;
-    padding: 10px;
-  }
-  .about .container .ilustra {
-    display: none;
-  }
-  .about .container .text-about {
-    margin-top: 60px;
-  }
-  .about .container .text-about .you-about {
-    text-align: center;
-  }
-  .about .container .text-about p {
-    font-size: 16px;
-    padding-right: 20px;
-  }
+    
 
   /*HABILIDADES*/
   .habilidades {
@@ -675,43 +566,7 @@ h3{
 
 
 @media (max-width: 768px) {
-    /*SOBRE DA PÁGINA  */
-  .about {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .about .container {
-    width: 80%;
-    padding: 10px;
-  }
-  .about .container .ilustra {
-    display: none;
-  }
-  .about .container .text-about {
-    margin-top: 60px;
-  }
-  .about .container .text-about .redes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-bottom: 25px;
-  }
-  .about .container .text-about .you-about {
-    text-align: center;
-    font-size: 1.8em;
-  }
-  .about .container .text-about p {
-    font-size: 1.2em;
-    padding-right: 20px;
-  }
+    
 
   /*habilidades*/
     .habilidades {
@@ -794,69 +649,7 @@ h3{
 }
 
 @media (max-width: 500px) {
-    /*SOBRE DA PÁGINA  */
-  .about {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .about .container {
-    width: 88%;
-    padding: 10px;
-  }
-  .about .container .ilustra {
-    display: none;
-  }
-  .about .container .text-about {
-    margin-top: 60px;
-  }
-  .about .container .text-about .you-about {
-    text-align: center;
-  }
-  .about .container .text-about p {
-    font-size: 16px;
-    padding-right: 20px;
-  }
-  .about .container .text-about div .redes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    text-align: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    width: 100%;
-  }
-  .about .container .text-about div .redes a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 20px;
-    display: flex;
-    text-align: center;
-    margin-right: 20px;
-    width: 150px;
-    border: 2px solid;
-    -o-border-image: linear-gradient(227.91deg, #0b4fb6 0%, #003cff 100%) 1;
-       border-image: linear-gradient(227.91deg, #0b4fb6 0%, #003cff 100%) 1;
-  }
-  .about .container .text-about div .redes a img {
-    width: 1.8em;
-  }
-  .about .container .text-about div .redes a p {
-    font-size: 1em;
-    margin-top: 15px;
-    font-family: monospace;
-  }
+    
 
   /*habilidades*/
     .habilidades {
