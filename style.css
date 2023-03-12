@@ -95,6 +95,7 @@ a:hover{
     cursor: pointer;
     z-index: 9999;
     transition: 400ms ease-in-out 0s;
+   
 }
 
 .checkbox .trace{
@@ -204,6 +205,91 @@ a:hover{
 }
 
 /*Sobre mim*/
+.container-p{
+  width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+    text-align: justify;
+}
+
+.s-container{
+  display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    text-align: justify;
+}
+
+.s-text{
+  color: blue;
+  width: 40%;
+  letter-spacing: 1px;
+  color: rgb(109,109,109);
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.s-card{
+  height: 300px;
+    width: 400px;
+    margin: 3rem 0 0;
+    background-image: url('./Imagens/4727424\ \(1\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    border: inset 7px rgb(42, 157, 177);
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(0.5);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.s-card-wrapper{
+  text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.s-card-wrapper::before{
+  content: '';
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    display: block;
+    border: 1px solid white;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+
+
+/*.curriculo{
+  display: flex;
+  margin-top: 50px; 
+  justify-content: center;
+  text-decoration: none;
+}
+
+span{
+  width: 22%;
+  height: 35px;
+  font-size: 18px;
+  text-align: center;
+}*/
 
 
 /*Cards*/
@@ -265,7 +351,6 @@ h3{
 
 .card-text{
     width: 40%;
-    font-family: sans-serif;
     letter-spacing: 1px;
     color: rgb(109,109,109);
     text-align: justify;
